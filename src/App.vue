@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import Home from './view/Home/index.vue';
 </script>
 
 <template>
-  <div class="min-h-screen flex items-center justify-center bg-linear-to-r from-indigo-500 to-teal-400">
-    <h1 class="text-5xl font-bold text-white">🎉 Tailwind v4 Working!</h1>
+  <div>
+    <!-- 首页节点 -->
+    <Home />
   </div>
 
 </template>
